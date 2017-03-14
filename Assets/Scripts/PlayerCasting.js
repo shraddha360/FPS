@@ -1,6 +1,8 @@
-﻿static var DistanceFromTarget : float;
+﻿#pragma strict
 
-var Target : float;
+static var DistanceFromTarget : float;
+
+var ToTarget : float;
 
 function Update(){
 var hit : RaycastHit;

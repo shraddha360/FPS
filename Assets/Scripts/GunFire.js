@@ -1,19 +1,18 @@
-﻿var Flash : GameObject;
+﻿#pragma strict
+
+var Flash : GameObject;
 
 function Update(){
-//if (GlobalAmmo.LoadedAmmo >= 1){
-
 if(Input.GetButtonDown("Fire1")){
 var gunsound : AudioSource = GetComponent.<AudioSource>();
 gunsound.Play();
 Flash.SetActive(true);
 MuzzleOff();
-//GetComponent.<Animation>().Play("AutoGun_1p_01");
- GlobalAmmo.LoadedAmmo -= 1;
+
+GetComponent.<Animation>().Play("GunShot");
+
    }
  }
-
-//}
 
 function MuzzleOff(){
  yield WaitForSeconds(0.1);

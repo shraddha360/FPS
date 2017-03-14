@@ -1,6 +1,11 @@
-﻿var EnemyHealth : int = 10;
-function DeductPoints( damageAmount : int){
- EnemyHealth -= damageAmount;
+﻿#pragma strict
+
+var EnemyHealth : int = 10;
+
+
+function DeductPoints( DamageAmount : int){
+
+ EnemyHealth -= DamageAmount;
 
 }
 

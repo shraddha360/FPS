@@ -1,18 +1,14 @@
-﻿<Properties StartupItem="Assembly-CSharp-firstpass.csproj">
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/OpenDoor001.js">
     <Files>
-      <File FileName="Assets\Scripts\GunFire.js" Line="18" Column="22" />
-      <File FileName="Assets\Scripts\HandGunDamage.js" Line="21" Column="1" />
-      <File FileName="Assets\Scripts\EnemyScript.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CrossAnimate.js" Line="22" Column="3" />
-      <File FileName="Assets\Scripts\GlobalAmmo.js" Line="7" Column="22" />
-      <File FileName="Assets\Scripts\AmmoPickup.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerCasting.js" Line="4" Column="1" />
-      <File FileName="Assets\Scripts\OpenDoor001.js" Line="12" Column="14" />
-      <File FileName="Assets\Scripts\HandGunReload.js" Line="46" Column="1" />
-      <File FileName="Assets\Scripts\PickUp9mm.js" Line="25" Column="35" />
-      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="9" Column="53" />
+      <File FileName="Assets/Scripts/GunFire.js" Line="3" Column="24" />
+      <File FileName="Assets/Scripts/EnemyScript.js" Line="18" Column="2" />
+      <File FileName="Assets/Scripts/HandGunDamage.js" Line="21" Column="3" />
+      <File FileName="Assets/Scripts/OpenDoor001.js" Line="19" Column="42" />
+      <File FileName="Assets/FpsController.cs" Line="6" Column="23" />
+      <File FileName="Assets/Scripts/PlayerCasting.js" Line="16" Column="3" />
+      <File FileName="Assets/Scripts/Wall.js" Line="14" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

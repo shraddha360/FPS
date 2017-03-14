@@ -1,10 +1,11 @@
-﻿var DamageAmount : int = 5;
+﻿#pragma strict
+
+var DamageAmount : int = 5;
 var TargetDistance : float;
 var AllowedRange : float = 15;
 
 function Update(){
 
-//if (GlobalAmmo.LoadAmmo >= 1){
     if (Input.GetButtonDown ("Fire1")){
   
     var Shot : RaycastHit;
@@ -17,9 +18,10 @@ function Update(){
 
    if (TargetDistance < AllowedRange)
    {
-     // Shot.transform.SendMessage("DeductPoints", DamageAmount);
-      Debug.Log(DamageAmount);
-//}
+  Shot.transform.SendMessage("DeductPoints", DamageAmount);
+
+      
+
 }
 }
 }
